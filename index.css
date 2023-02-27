@@ -73,6 +73,11 @@ body
   margin-bottom: -5px;
 }
 
+.list
+{
+  transition: 0.5s;
+}
+
 .list div
 {
   font-family: "Roboto", sans-serif;
@@ -83,6 +88,7 @@ body
   padding: 10px;
   transition: 0.5s;
   -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .insert-item
@@ -90,6 +96,7 @@ body
   border-top: none;
   border-left: none;
   border-right: none;
+  outline: none;
   border-bottom: 2.5px solid #FF3131;
   outline: none;
   font-family: "Roboto", sans-serif;
@@ -109,6 +116,7 @@ body
   cursor: pointer;
   font-size: 25px;
   -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .footer

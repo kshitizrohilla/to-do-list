@@ -44,8 +44,18 @@ form.addEventListener("submit", (e) =>
     {
       element.style.textDecoration = "line-through";
       element.style.color = "#FF3131";
+      element.style.letterSpacing = "5px";
+      initializeRemoval()
       // element.style.color = "#f44336";
       // taskCompletion();
+      function initializeRemoval()
+      {
+        setTimeout(removeItem, 1000) 
+      }
+      function removeItem()
+      {
+        element.style.display = "none";
+      }
     }
 })
 list.append(element);
@@ -61,6 +71,7 @@ function toggleDarkMode()
   document.getElementById("list").style.color = "#f5f5f7";
   darkMode = true;
   lightMode = false;
+  element.style.color = "#f5f5f7";
 }
 
 function toggleLightMode()
@@ -72,4 +83,5 @@ function toggleLightMode()
   document.getElementById("list").style.color = "#222";
   darkMode = false;
   lightMode = true;
+  element.style.color = "#222";
 }
