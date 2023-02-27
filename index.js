@@ -71,7 +71,6 @@ function toggleDarkMode()
   document.getElementById("list").style.color = "#f5f5f7";
   darkMode = true;
   lightMode = false;
-  element.style.color = "#f5f5f7";
 }
 
 function toggleLightMode()
@@ -83,5 +82,4 @@ function toggleLightMode()
   document.getElementById("list").style.color = "#222";
   darkMode = false;
   lightMode = true;
-  element.style.color = "#222";
 }

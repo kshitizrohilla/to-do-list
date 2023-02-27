@@ -121,10 +121,9 @@ body
 
 .footer
 {
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  width: 100%;
+  display: flex;
+  width: -100%;
+  float: right;
   /* background-color: #101820; */
   padding: 15px;
 }
@@ -136,8 +135,8 @@ body
   font-family: "Roboto", sans-serif;
   border: none;
   padding: 5px 15px;
-  border-top: 2px solid #333;
-  border-bottom: 2px solid #333;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
   transition: 0.25s;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -159,14 +158,14 @@ body
 
 .dark-mode-button
 {
-  border-left: 2px solid #333;
-  border-right: 1.5px solid #333;
+  border-left: 1px solid #000;
+  border-right: 2px solid #000;
 }
 
 .light-mode-button
 {
-  border-left: 1.5px solid #333;
-  border-right: 2px solid #333;
+  border-right: 1px solid #000;
+  border-left: 2px solid #000;
 }
 
 @media only screen and (max-width: 600px)
