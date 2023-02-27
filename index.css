@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+  box-sizing: border-box;
+  user-select: none;
+}
+
+*::selection
+{
+  background-color: #000;
+  color: #fff;
+}
+
+body
+{
+  transition: 0.5s;
+}
+
+.main-heading
+{
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  margin: 0;
+  color: #222;
+}
+
+.sub-heading
+{
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+.whole-whole
+{
+  text-align: center;
+}
+
+.whole
+{
+  width: 75%;
+  margin: auto;
+}
+
+.error-message
+{
+  display: none;
+}
+
+.error-message, .initial-message
+{
+  color: #fff;
+  background-color: #32cd32;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  inline-size: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.lower-container
+{
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.list div
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  cursor: pointer;
+  border-top: 2px solid #ececec;
+  padding: 10px;
+  transition: 0.5s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.insert-item
+{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2.5px solid #FF3131;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.submit-button
+{
+  border: none;
+  color: #fff;
+  background-color: #f44336;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.footer
+{
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  /* background-color: #101820; */
+  padding: 15px;
+}
+
+.dark-mode-button, .light-mode-button
+{
+  float: right;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  padding: 5px 15px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transition: 0.25s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dark-mode-button:hover
+{
+  background-color: #222; 
+  color: #fff;
+  transition: 0.25s;
+}
+
+.light-mode-button:hover
+{
+  background-color: #222; 
+  color: #fff;
+  transition: 0.25s;
+}
+
+.dark-mode-button
+{
+  border-left: 2px solid #333;
+  border-right: 1.5px solid #333;
+}
+
+.light-mode-button
+{
+  border-left: 1.5px solid #333;
+  border-right: 2px solid #333;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .submit-button
+  {
+    margin-top: 10px;
+  }
+  .insert-item
+  {
+    width: 100%;
+  }
+  .error-message, .initial-message
+  {
+    width: 95%;
+    font-size: 15px;
+  }
+}

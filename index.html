@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDo - Simple to-do list</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="media/favicon.png">
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="whole-whole">
+      <h1 class="main-heading" id="mainHeading">toDo</h1>
+      <h2 class="sub-heading" id="subHeading">Make the most of your day. Get organised and achieve more everyday.</h2>
+        <div class="whole">
+          <form>
+            <input type="text" class="insert-item" id="insertItem" autocomplete="off" placeholder="Add tasks...">
+            <button class="submit-button" id="submitButton" type="submit">Add toDo</button>
+          </form>
+          
+          <div class="lower-container">
+            <div class="list" id="list">
+              <p class="error-message" id="errorMessage"></p>
+              <p class="initial-message" id="initialMessage">Your tasks will apear here...</p>
+            </div> 
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+      <button class="light-mode-button" onclick="toggleLightMode()">Light Mode</button>
+      <button class="dark-mode-button" onclick="toggleDarkMode()">Dark Mode</button>
+    </div>
+  </body>
+</html>
