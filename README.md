@@ -1,7 +1,7 @@
 # toDo - A Simple To-Do List Web App
 A simple to-do list web app made using JavaScript element creation options.
 
-Visit Website ↠ [toDo](https://kshitizrohilla.github.io/to-do-list/)
+Visit Website --> [toDo](https://kshitizrohilla.github.io/to-do-list/)
 
 # Screenshots
 ![to-do-list-light-mode-screenshot](https://kshitizrohilla.github.io/to-do-list/media/to-do-list-light-mode-screenshot.png)
