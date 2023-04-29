@@ -1,5 +1,5 @@
 # toDo - A Simple To-Do List Web App
-A simple to-do list web app made using JavaScript element creation options.
+A simple to-do list web app made using vanilla JavaScript. Users can create a list of tasks, mark them as complete, and delete them. 
 
 Visit Website --> [toDo](https://kshitizrohilla.github.io/to-do-list/)
 
