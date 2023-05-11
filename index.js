@@ -1,13 +1,3 @@
-// import confetti from "https://cdn.skypack.dev/canvas-confetti";
-
-// function taskCompletion()
-// {
-//   confetti();
-//   window.addEventListener("click", () => {
-//     confetti();
-//   });
-// }
-
 var form = document.querySelector("form");
 var input = document.querySelector("input");
 var list = document.querySelector(".list");
@@ -46,8 +36,6 @@ form.addEventListener("submit", (e) =>
       element.style.color = "#FF3131";
       element.style.letterSpacing = "5px";
       initializeRemoval()
-      // element.style.color = "#f44336";
-      // taskCompletion();
       function initializeRemoval()
       {
         setTimeout(removeItem, 1000) 
